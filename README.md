@@ -1,5 +1,7 @@
 # TravelAI 2.0
 
+[Hướng dẫn cài đặt và chạy bằng tiếng Việt](HUONG_DAN_CHAY.md)
+
 TravelAI uses one Expo / React Native application for Web, Android and iOS. Traveler and administrator screens live in `apps/mobile`. Spring Boot provides the shared API and PostgreSQL persistence. FastAPI calls Google Cloud Vision using server-side credentials.
 
 ## Start the application
