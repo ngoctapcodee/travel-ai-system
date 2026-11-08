@@ -1,0 +1,25 @@
+/ai-service/ai/service-account.json
+
+# Local build, test and private runtime artifacts
+node_modules/
+dist/
+target/
+coverage/
+.expo/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.log
+
+# Local encryption keys and encrypted database backups
+.secrets/
+.local-backups/
+
+# Credentials must never enter the public repository
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
