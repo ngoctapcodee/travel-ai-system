@@ -23,3 +23,7 @@ __pycache__/
 *.key
 *.p12
 *.pfx
+
+# Downloaded model artifact; provision with scripts/download-landmark-model.py.
+ai-service/models/*.onnx
+ai-service/.venv/

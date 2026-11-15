@@ -3,6 +3,9 @@ import { Platform } from "react-native";
 
 export interface RecognitionResult {
   success: boolean;
+  landmarkCode?: string | null;
+  province?: string | null;
+  confidence?: number | null;
   displayName: string;
   name: string | null;
   recognitionStatus: "identified" | "predicted" | "unknown";
